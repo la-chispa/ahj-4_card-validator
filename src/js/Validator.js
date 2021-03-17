@@ -10,7 +10,7 @@ export default class Validator {
   }
 
   isCard() {
-    if (this.number.length > 19 || this.number.length < 7) {
+    if (this.number.length > 19 || this.number.length < 8) {
       return false;
     }
     return true;
@@ -63,7 +63,7 @@ export default class Validator {
     if (this.number.match(/^34/) || this.number.match(/^37/)) {
       paymentSystem = 'amex';
     }
-    if (this.number.match(/^36/) || this.number.match(/^54/)) {
+    if (this.number.match(/^36/)) {
       paymentSystem = 'dc';
     }
     return paymentSystem;

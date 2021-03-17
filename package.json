@@ -1,0 +1,48 @@
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/la-chispa/ahj-4_card-validator.git",
+  "author": "la-chispa",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "doc": "jsdoc -c jscoc.conf.json",
+    "preshow:coverage": "yarn run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:doc": "yarn doc",
+    "show:doc": "live-server doc",
+    "preshow:dist": "yarn build",
+    "show:dist": "live-server dist"
+  },
+  "dependencies": {
+    "core-js": "3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.1.2",
+    "css-minimizer-webpack-plugin": "^1.2.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^1.3.9",
+    "push-dir": "^0.4.1",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  }
+}

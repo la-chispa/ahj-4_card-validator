@@ -1,0 +1,39 @@
+LICENSE
+
+ATTRIBUTIONS
+
+CreditCardNumbersValidator includes work by:
+Olga Belotserkovskaya: Current developer
+VisualPharm (Ivan Boyko): Must Have Icons
+Artem Ottoson: some Payment System Icons
+The Web Design Blog: some Credit Card, Debit Card Icons
+icons8.ru: Mir Payment System Icon
+
+MUST HAVE ICONS PACK
+some icons are from Must Have Icons pack, namely:
+right.png
+wrong.png
+
+Must Have Icons are by VisualPharm (Ivan Boyko) under Creative Commons, see https://findicons.com/pack/573/must_have
+
+PAYMENT SYSTEM ICONS PACK
+some icons based on the Payment System Icons pack, namely:
+cup.png
+jcb.png
+dc.png
+
+Payment System Icons are by Artem Ottoson under freeware licende, see: https://findicons.com/pack/2814/payment_system_icons
+
+CREDIT CARD, DEBIT CARD ICONS PACK
+some icons based on the Payment System Icons pack, namely:
+amex.png
+mastercard.png
+visa.png
+
+Credit Card, Debit Card Icons are by The Web Design Blog under freeware license, see: https://findicons.com/pack/2102/credit_card_debit_card
+
+MIR PAYMENT SYSTEM ICON
+Mir Payment System Icon is taken from the Mir set at https://icons8.ru/icons/set/mir
+Universal Multimedia License https://icons8.com/vue-static/landings/pricing/icons8-license.pdf
+Icon author is icons8, web site: https://icons8.ru/
+

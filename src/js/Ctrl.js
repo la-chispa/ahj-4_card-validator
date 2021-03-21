@@ -11,18 +11,18 @@ export default class Ctrl {
     this.form.addEventListener('submit', (e) => {
       e.preventDefault();
       const check = this.validator.checkLuhnAlgorithm();
-      this.dom.showChecking(check);
+      this.dom.showChecking(check, this.network);
     });
   }
 
   setInputListener() {
     this.form.addEventListener('input', (e) => {
       this.dom.hideChecking();
-      const network = this.validator.checkDigit(e.target.value);
-      if (!network) {
+      this.network = this.validator.checkSystem(e.target.value);
+      if (!this.network) {
         this.dom.activateNetworks();
       } else {
-        this.dom.showNetwork(network);
+        this.dom.showNetwork(this.network);
       }
     });
   }

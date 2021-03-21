@@ -39,7 +39,7 @@ export default class Validator {
     return false;
   }
 
-  checkDigit(data) {
+  checkSystem(data) {
     this.cleanData(data);
     this.isNumber();
     let paymentSystem = false;

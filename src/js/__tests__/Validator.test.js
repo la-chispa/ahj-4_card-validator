@@ -54,7 +54,7 @@ test.each([
   ['false', '0000208828232470', false],
 ])(('it should be %s'), (_, input, expected) => {
   const validator = new Validator();
-  const checkingCard = validator.checkDigit(input);
+  const checkingCard = validator.checkSystem(input);
   expect(checkingCard).toBe(expected);
 });
 
